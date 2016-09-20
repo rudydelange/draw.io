@@ -1,6 +1,6 @@
 /**
- * $Id: IconFinderServlet.java,v 1.6 2013/08/22 09:43:18 gaudenz Exp $
- * Copyright (c) 2011-2012, JGraph Ltd
+ * Copyright (c) 2006-2016, JGraph Ltd
+ * Copyright (c) 2006-2016, Gaudenz Alder
  */
 package com.mxgraph.online;
 
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class OpenServlet
  */
-public class IconFinderServlet extends HttpServlet
+public class IconSearchServlet extends HttpServlet
 {
 	/**
 	 * 
@@ -34,7 +34,7 @@ public class IconFinderServlet extends HttpServlet
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public IconFinderServlet()
+	public IconSearchServlet()
 	{
 		super();
 	}
